@@ -1,4 +1,5 @@
 import React from 'react'
+import woman from '../../../assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg'
 
 const Community = () => {
     return (
@@ -18,47 +19,47 @@ const Community = () => {
                     <div id="carousel" className="flex justify-center w-full items-center relative m-8">
                         <div id="circle1"
                             className="rounded-full border-2 w-[30px] h-[30px] md:w-[60px] md:h-[60px] border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         <div id="circle2"
                             className="rounded-full border-2 w-[32px] h-[32px] md:w-[70px] md:h-[70px] border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         <div id="circle3"
                             className="rounded-full border-2 w-[34px] h-[34px] md:w-[80px] md:h-[80px] border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         <div id="circle4"
                             className="rounded-full border-2 w-[36px] h-[36px] md:w-[90px] md:h-[90px] border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         <div id="circleHead"
                             className="rounded-full border-2 w-[38px] h-[38px] md:w-[100px] md:h-[100px]  border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         <div id="circle6"
                             className="rounded-full border-2 w-[36px] h-[36px] md:w-[90px] md:h-[90px] border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         <div id="circle7"
                             className="rounded-full border-2 w-[34px] h-[34px] md:w-[80px] md:h-[80px] border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         <div id="circle8"
                             className="rounded-full border-2 w-[32px] h-[32px] md:w-[70px] md:h-[70px] border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         <div id="circle9"
                             className="rounded-full border-2 w-[30px] h-[30px] md:w-[60px] md:h-[60px] border-purple-700 overflow-hidden">
-                            <img src="src/assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg" alt=""
+                            <img src={woman} alt=""
                                 className="object-cover" />
                         </div>
                         
