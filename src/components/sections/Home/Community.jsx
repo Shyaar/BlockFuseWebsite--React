@@ -9,7 +9,7 @@ const Community = () => {
                     <p className="text-center lg:w-[800px] self-center">Become part of a thriving network of blockchain enthusiasts and
                         professionals.</p>
                 </div>
-                <div className="flex flex-col gap-2 w-full items-center lg:w-[900px] justify-center">
+                <div className="flex flex-col gap-2 w-full items-center lg:w-[900px] self-center justify-center">
                     <div
                         className="rounded-full border-2 border-purple-700 bg-gradient-to-r from-purple-900/[50%] to-purple-700/50% flex justify-center content-center self-center w-[80px] p-[20px] h-fit my-4">
                         <img src="src/assets/img/blockfuse-logo-BgIWHfHT.png" alt="" width="30" height="30" className=" self-center" />

@@ -13,7 +13,7 @@ const JoinUs = () => {
                 </div>
                 <div className="flex flex-col justify-center content-center gap-4">
                     <p className="w-fit self-center">start your journey today</p>
-                    <div>
+                    <div className='w-[200px] flex self-center  items-center'>
                         <PrimaryBtn text="Apply Now" />
                     </div>
                 </div>

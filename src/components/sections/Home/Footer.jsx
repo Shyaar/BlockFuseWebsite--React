@@ -18,7 +18,7 @@ const Footer = () => {
                     <p className='text-center'>support@blockfuselabs.com</p>
                 </div>
                 <div>
-                    <nav className="flex flex-col md:flex justify-between py-[30px] items-center gap-6">
+                    <nav className="flex flex-col md:flex-row justify-between py-[10px] items-center gap-6">
                         <ul className="flex gap-3 self-center text-[14px] w-full flex-wrap items-center justify-center">
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/about'>About us</Link></li>

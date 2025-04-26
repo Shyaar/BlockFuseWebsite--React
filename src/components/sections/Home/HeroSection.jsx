@@ -14,15 +14,17 @@ const Hero = () => {
                 </div>
 
                 <div id="hero-text" className="w-full flex flex-col justify-center content-center gap-[24px] lg:mt-[80px]">
-                        <h1 className="text-[40px] text-center lg:text-[70px] font-bold w-full px-4">
+                    <h1 className="text-[40px] text-center lg:text-[70px] font-bold w-full px-4">
                         Unlock the Future with <span className="text-purple-700"> Blockchain</span>
-                        </h1>
+                    </h1>
                     <p className="mx-4 lg:mx-[350px] lg:w-[1000px] self-center text-[24px] text-center">
                         Transform your skills and career with comprehensive training designed
                         to lead the digital revolution
                     </p>
-                    
-                    <PrimaryBtn text="Explore our bootcamps" />
+
+                    <div className='w-[200px] flex self-center  items-center'>
+                        <PrimaryBtn text="Explore our bootcamps" />
+                    </div>
 
                 </div>
             </section>
