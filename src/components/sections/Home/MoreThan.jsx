@@ -1,4 +1,9 @@
 import React from 'react'
+import icon1  from '../../../assets/img/globe-Frame-3704-BDzRpwN3.svg'
+import icon2  from '../../../assets/img/hands-Frame-3703-B-g3x3F1.svg'
+import icon3  from '../../../assets/img/pen-Frame-3702-CXfKDzyq.svg'
+import icon4  from '../../../assets/img/people-Frame-3701-CvA-aC47.svg'
+
 
 const MoreThan = () => {
     return (
@@ -12,7 +17,7 @@ const MoreThan = () => {
                     <div id="card1" className=" flex">
                         <div className="flex gap-2 items-center">
                             <div className='w-20 md:w-30 lg:w-40 h-fit '>
-                                <img src="src/assets/img/globe-Frame-3704-BDzRpwN3.svg" className='w-20 md:w-30 lg:w-40 ' alt="icon" />
+                                <img src={icon1} className='w-20 md:w-30 lg:w-40 ' alt="icon" />
                             </div>
                             <div className="flex gap-2">
                                 <div className="border-b border-purple-600 p-[20px]">
@@ -30,7 +35,7 @@ const MoreThan = () => {
                     <div id="card2" className=" flex">
                         <div className="flex gap-2 items-center">
                             <div className='w-20 md:w-30 lg:w-40 h-fit '>
-                                <img src="src/assets/img/hands-Frame-3703-B-g3x3F1.svg" className='w-20 md:w-30 lg:w-40' alt="icon" />
+                                <img src={icon2} className='w-20 md:w-30 lg:w-40' alt="icon" />
                             </div>
                             <div className="flex gap-2">
                                 <div className="border-b border-purple-600 p-[20px]">
@@ -47,7 +52,7 @@ const MoreThan = () => {
                     <div id="card3" className=" flex">
                         <div className="flex gap-2 items-center">
                             <div className='w-20 md:w-30 lg:w-40 h-fit '>
-                                <img src="src/assets/img/pen-Frame-3702-CXfKDzyq.svg" className='w-10 md:w-20 lg:w-40' alt="icon" />
+                                <img src={icon3} className='w-10 md:w-20 lg:w-40' alt="icon" />
                             </div>
 
                             <div className="flex gap-2">
@@ -65,7 +70,7 @@ const MoreThan = () => {
                     <div id="card4" className=" flex">
                         <div className="flex gap-2 items-center">
                             <div className='w-50 md:w-20 lg:w-40 h-fit '>
-                                <img src="src/assets/img/people-Frame-3701-CvA-aC47.svg" className  ='w-50 md:w-20 lg:w-40' alt="icon" />
+                                <img src={icon4} className  ='w-50 md:w-20 lg:w-40' alt="icon" />
                             </div>
 
                             <div className="flex gap-2">

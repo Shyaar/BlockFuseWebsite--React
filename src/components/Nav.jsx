@@ -4,6 +4,8 @@ import ThemeBtn from './btns/ThemeBtn'
 import { ThemeContext } from '../Context/ThemeProvider'
 import { StyleContext } from './Color'
 import PrimaryBtn from './btns/PrimaryBtn'
+import BFLLogo from '../assets/img/blockfuse-logo-BgIWHfHT.png'
+
 
 const Nav = () => {
     const { theme, toggleTheme } = useContext(ThemeContext)
@@ -19,7 +21,7 @@ const Nav = () => {
                 "flex lg:mx-[90px] lg:my-[30px] md:m-[30px] m-2 p-2 justify-between items-center bg-[#fff] md:px-[20px] md:py-[6px] z-10 relative text-black border "}>
 
                 <div id="logo" className=''>
-                    <img src="src/assets/img/blockfuse-logo-BgIWHfHT.png" alt="bfl logo" width="30px" />
+                    <img src={BFLLogo} alt="bfl logo" width="30px" />
                 </div>
                 <div id="m-hide" className="hidden lg:flex">
                     <ul className="flex gap-3 self-center text-[14px]">

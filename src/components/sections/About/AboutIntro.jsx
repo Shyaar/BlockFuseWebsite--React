@@ -1,4 +1,6 @@
 import React from 'react'
+import nenCo from '../../../assets/img/nen.co.Frame-10-AmuGo1Ak.png'
+import bgImg from '../../../assets/img/2bgdownload.svg'
 
 const AboutIntro = () => {
     return (
@@ -12,8 +14,8 @@ const AboutIntro = () => {
                     </p>
                 </div>
                 <div id="img" className="sm:mx-4 relative flex flex-col justify-center content-center text-white">
-                    <img src="src/assets/img/2bgdownload.svg" alt="" className="absolute -z-1 -top-[100px] md:w-[200px] lg:w-[300px] hidden  md:flex" />
-                    <img src="src/assets/img/nen.co.Frame-10-AmuGo1Ak.png" alt="" className="z-0 relative" />
+                    <img src={bgImg} alt="" className="absolute -z-1 -top-[100px] md:w-[200px] lg:w-[300px] hidden  md:flex" />
+                    <img src={nenCo} alt="" className="z-0 relative" />
                 </div>
                 <p className="mx-4 md:mx-[180px] text-justify">
                     From developers and innovators to thought leaders in the Web3 space, our graduates are transforming the future of

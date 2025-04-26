@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../../../Context/ThemeProvider'
 import PrimaryBtn from '../../btns/PrimaryBtn'
+import heroImg  from '../../../assets/img/heroimg.svg'
 
 const Hero = () => {
     const theme = useContext(ThemeContext)
@@ -9,7 +10,7 @@ const Hero = () => {
         <>
             <section id="hero" className='mb-[100px] md:mb-[150px] lg:mb-[200px]'>
                 <div className="flex relative justify-center">
-                    <img src="src/assets/img/zigzag-q2OLhjMn.svg" alt="background image"
+                    <img src={heroImg} alt="background image"
                         className="absolute lg:absolute  lg:-top-[200px] opacity-[20%] z-0" />
                 </div>
 

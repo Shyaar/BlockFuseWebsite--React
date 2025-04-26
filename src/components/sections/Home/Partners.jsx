@@ -1,4 +1,5 @@
 import React from 'react'
+import Partner1 from '../../../assets/img/download.svg'
 
 const Partners = () => {
     return (
@@ -17,7 +18,7 @@ const Partners = () => {
                 <div className="flex flex-col justify-center content-center ">
                     <h2 className="font-bold text-[32px] self-center w-fit mb-[80px]">Our Partners</h2>
                     <div className="">
-                        <img src="src/assets/img/download.svg" alt="" width="500" className="" />
+                        <img src={[Partner1]} alt="" width="500" className="" />
                     </div>
                     <div id="counter" className="flex gap-2 my-[32px] justify-center items-center self-center">
 

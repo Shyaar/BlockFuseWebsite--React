@@ -1,4 +1,5 @@
 import React from 'react'
+import Victor from '../../../assets/img/kjpr6rroqix2qefrekuo.png'
 
 const TeamMembers = () => {
     return (
@@ -8,7 +9,7 @@ const TeamMembers = () => {
                 <div className='flex flex-col mx-4 md:grid md:grid-cols-4 gap-8'>
                     <div id="team-card" class="gap-4">
                         <div class="">
-                            <img src="src/assets/img/kjpr6rroqix2qefrekuo.png" alt="" class="object-cover" />
+                            <img src={Victor} alt="" class="object-cover" />
                         </div>
 
                         <div id="info" class="flex flex-col justify-center items-center">
@@ -18,7 +19,7 @@ const TeamMembers = () => {
                     </div>
                     <div id="team-card" class="gap-4">
                         <div class="">
-                            <img src="src/assets/img/kjpr6rroqix2qefrekuo.png" alt="" class="object-cover" />
+                            <img src={Victor} alt="" class="object-cover" />
                         </div>
 
                         <div id="info" class="flex flex-col justify-center items-center">
@@ -28,7 +29,7 @@ const TeamMembers = () => {
                     </div>
                     <div id="team-card" class="gap-4">
                         <div class="">
-                            <img src="src/assets/img/kjpr6rroqix2qefrekuo.png" alt="" class="object-cover" />
+                            <img src={Victor} alt="" class="object-cover" />
                         </div>
 
                         <div id="info" class="flex flex-col justify-center items-center">
@@ -38,7 +39,7 @@ const TeamMembers = () => {
                     </div>
                     <div id="team-card" class="gap-4">
                         <div class="">
-                            <img src="src/assets/img/kjpr6rroqix2qefrekuo.png" alt="" class="object-cover" />
+                            <img src={Victor} alt="" class="object-cover" />
                         </div>
 
                         <div id="info" class="flex flex-col justify-center items-center">
@@ -48,7 +49,7 @@ const TeamMembers = () => {
                     </div>
                     <div id="team-card" class="gap-4">
                         <div class="">
-                            <img src="src/assets/img/kjpr6rroqix2qefrekuo.png" alt="" class="object-cover" />
+                            <img src={Victor} alt="" class="object-cover" />
                         </div>
 
                         <div id="info" class="flex flex-col justify-center items-center">
@@ -58,7 +59,7 @@ const TeamMembers = () => {
                     </div>
                     <div id="team-card" class="gap-4">
                         <div class="">
-                            <img src="src/assets/img/kjpr6rroqix2qefrekuo.png" alt="" class="object-cover" />
+                            <img src={Victor} alt="" class="object-cover" />
                         </div>
 
                         <div id="info" class="flex flex-col justify-center items-center">
@@ -68,7 +69,7 @@ const TeamMembers = () => {
                     </div>
                     <div id="team-card" class="gap-4">
                         <div class="">
-                            <img src="src/assets/img/kjpr6rroqix2qefrekuo.png" alt="" class="object-cover" />
+                            <img src={Victor} alt="" class="object-cover" />
                         </div>
 
                         <div id="info" class="flex flex-col justify-center items-center">
@@ -78,7 +79,7 @@ const TeamMembers = () => {
                     </div>
                     <div id="team-card" class="gap-4">
                         <div class="">
-                            <img src="src/assets/img/kjpr6rroqix2qefrekuo.png" alt="" class="object-cover" />
+                            <img src={Victor} alt="" class="object-cover" />
                         </div>
 
                         <div id="info" class="flex flex-col justify-center items-center">

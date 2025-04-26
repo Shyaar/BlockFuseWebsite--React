@@ -1,4 +1,7 @@
 import React from 'react'
+import clement from '../../../assets/img/clementy8e3ygxaccdbenvxzg4w.jpg'
+import bgImg  from '../../../assets/img/2bgdownload.svg'
+
 
 const Testimonials = () => {
     return (
@@ -16,10 +19,10 @@ const Testimonials = () => {
                 <div className="flex flex-col justify-center content-center ">
                     <h2 className="font-bold text-[32px] self-center w-fit mb-[80px]">Testimonials</h2>
                     <div className="relative">
-                        <img src="src/assets/img/2bgdownload.svg" alt="" width="200" className="absolute z-0 -top-20" />
+                        <img src={bgImg} alt="" width="200" className="absolute z-0 -top-20" />
                         <div className="bg-black border border-purple-700 flex flex-col md:flex-row lg:h-[200px] z-9 relative">
                             <div className='flex gap-4'>
-                                <img src="src/assets/img/clementy8e3ygxaccdbenvxzg4w.jpg" alt="" className='w-20 md:w-80' />
+                                <img src={clement} alt="" className='w-20 md:w-80' />
                                 <div className='my-4 md:hidden'>
                                     <h3 className="text-gray-500">11/11/2011</h3>
                                     <h2 className="font-bold text-white">Clement Raymond</h2>

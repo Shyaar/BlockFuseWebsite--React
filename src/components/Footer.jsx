@@ -1,10 +1,11 @@
 import React from 'react'
-import Community from './Community'
+import Community from './sections/Home/Community'
 import { Link } from 'react-router-dom'
 import { FiFacebook } from "react-icons/fi";
 import { RiTwitterXFill } from "react-icons/ri";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
+import BFLLogo from '../assets/img/blockfuse-logo-BgIWHfHT.png'
 
 const Footer = () => {
     return (
@@ -14,7 +15,7 @@ const Footer = () => {
             <section id="Footer"
                 className="flex flex-col justify-center content-center md:mx-[40px] lg:mx-[90px] mx-4 my-[20px] md:my-[40px] lg:my-[80px]">
                 <div id="logo" className="flex flex-col gap-4 justify-center text-center items-center">
-                    <img src="src/assets/img/blockfuse-logo-BgIWHfHT.png" alt="bfl logo" width="30px" className="" />
+                    <img src={BFLLogo} alt="bfl logo" width="30px" className="" />
                     <p className='text-center'>support@blockfuselabs.com</p>
                 </div>
                 <div>

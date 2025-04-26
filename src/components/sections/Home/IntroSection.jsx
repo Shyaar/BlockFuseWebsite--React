@@ -1,4 +1,7 @@
 import React from 'react'
+import bgImg  from '../../../assets/img/2bgdownload.svg'
+import nenCo  from '../../../assets/img/nen.co.Frame-10-AmuGo1Ak.png'
+
 
 const Intro = () => {
     return (
@@ -14,8 +17,8 @@ const Intro = () => {
                     </p>
                 </div>
                 <div id="img" className="relative flex flex-col justify-center content-center text-white mx-4 lg:mx-[90px]">
-                    <img src="src/assets/img/2bgdownload.svg" alt="" className="absolute -z-1 -top-7 md:-top-[100px] w-[100px] lg:w-[300px]" />
-                    <img src="src/assets/img/nen.co.Frame-10-AmuGo1Ak.png" alt="" className="z-0 relative " />
+                    <img src={bgImg} alt="" className="absolute -z-1 -top-7 md:-top-[100px] w-[100px] lg:w-[300px]" />
+                    <img src={nenCo} alt="" className="z-0 relative " />
 
                 </div>
             </section>

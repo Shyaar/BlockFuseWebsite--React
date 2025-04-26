@@ -1,6 +1,9 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../../../Context/ThemeProvider'
 import PrimaryBtn from '../../btns/PrimaryBtn'
+import web3Bg  from '../../../assets/img/web2-bg-DXeHHdR8.jpeg'
+import web2Bg  from '../../../assets/img/web3-bg-DsK_wXrN.jpeg'
+
 
 const OurBootCamps = () => {
     const {theme} = useContext(ThemeContext)
@@ -12,8 +15,8 @@ const OurBootCamps = () => {
 
                 <div className="grid md:grid-cols-2 mx-4 md:mx-[60px] md:gap-5 gap-10  my-[40px]">
                     <div id="card1" className="bg-black border border-purple-600 p-[10px] md:p-[20px]">
-                        <div
-                            className="bg-[url('src/assets/img/web2-bg-DXeHHdR8.jpeg')] flex justify-center content-center py-[70px] mb-[40px] border corder-white h-[200px] items-center">
+                        <div  style={{ backgroundImage: `url(${web3Bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+                            className="flex justify-center content-center py-[70px] mb-[40px] border corder-white h-[200px] items-center">
                             <h2 className="font-bold text-[25px] text-center text-white">
                                 Web2 for Web3 Preparatory Bootcamp
                             </h2>
@@ -41,7 +44,8 @@ const OurBootCamps = () => {
 
                     <div id="card2" className="bg-black border border-purple-600 p-[10px] md:p-[20px]">
                         <div
-                            className="bg-[url('src/assets/img/web3-bg-DsK_wXrN.jpeg')] flex justify-center content-center py-[70px] mb-[40px] border corder-white h-[200px] items-center">
+                        style={{ backgroundImage: `url(${web2Bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+                            className="flex justify-center content-center py-[70px] mb-[40px] border corder-white h-[200px] items-center">
                             <h2 className="font-bold text-[25px] text-center text-white">Web3 Bootcamp</h2>
                         </div>
                         <p className='text-center text-white h-[180px]'>
