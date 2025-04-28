@@ -1,5 +1,5 @@
 import React from 'react'
-import woman from '../../../assets/img/portrait-beautiful-smiling-woman-with-curly-hair-looking-camera.jpg'
+import woman from '../../../assets/img/woman.jpg'
 
 const Community = () => {
     return (
